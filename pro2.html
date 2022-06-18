@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
+<title>doing nerdy things</title>
+    <style>
+        .navbar li{
+        float:left;
+        list-style:none;
+        margin:13px 20px;
+    }
+    .navbar{
+        background-color:aquamarine;
+        border-radius:80px;
+        text-align:centre;
+    }
+    .navbar{
+        overflow:auto;
+    }
+    .navbar li a{
+        padding:3px 3px;
+        text-decoration:none;
+    }
+    .navbar li a:hover{
+        color:rgb(35, 92, 142);
+
+    }
+    .search{
+        float:right;
+        color:white;
+        padding: 12px 75px;
+    }
+    .navbar input{
+        border:2px solid black;
+        border-radius:14px;
+        padding:3px 17px;
+        width:500px;
+    }
+
+    img{
+        height: 900px;
+        width: 10px;
+} 
+.profile p{
+    
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact us</a></li>
+            <div class="search">
+                <input type="text"name="search"
+                id="search"placeholder="search this website">
+            </div>
+        </ul>
+    </nav>
+    </header>
+    <h1 style="text-align:center">Tell Me About Yourself</h1>
+    <h3 style="border:rgb(50, 80, 133); border-width:5px;border-style:solid;text-align:center; background-color: aquamarine; margin-top: 5px; padding: 15px;">
+        <div class="profile"><centre><table colspan="5">
+            <p>Enter name:<input type="text"name="naam"
+                id="naam"placeholder="enter name"><br></p>
+            <p>Enter email:<input type="text"name="email"
+                id="email"placeholder="enter email"><br></p>
+            <p>Enter phone:<input type="text"name="phone"
+                id="phone"placeholder="enter phone"><br></p>
+            <p>Enter age:<input type="text"name="age"
+                id="age"placeholder="enter age"></p>
+                </table></centre>
+        </div>
+        </h3>
+        <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <img src="https://cdn.pixabay.com/photo/2016/02/26/16/32/bulldog-1224267_960_720.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2016/02/19/15/46/labrador-retriever-1210559_960_720.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2016/01/05/17/51/maltese-1123016_960_720.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <div class="card">
+                <h5 class="card-header">Featured</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Assignment completed</h5>
+                  <p class="card-text">my SMP project.</p>
+                  <a href="#" class="btn btn-primary">Done</a>
+                </div>
+              </div> 
+          </div>
+
+
+    
+
+</body>
+</html>
